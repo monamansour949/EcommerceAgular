@@ -13,9 +13,9 @@ const routes: Routes = [
    {path:'',redirectTo:'/Home',pathMatch:'full'},
    {path:'',component:MainLayoutComponent,children:[
      {path:'Home',component:HomeComponent},
-     {path:'Order',component:OrderComponent},
+   
     {path:'Product',component:ProductComponent},
-    {path:'Cart',component:CardComponent}
+  
    ]}
 
 ];
